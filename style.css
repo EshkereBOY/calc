@@ -1,0 +1,65 @@
+.card{
+    width: 320px;
+    height: 520px;
+    background-image: linear-gradient(135deg,
+     #667eea 0%, #764ba2 100%);
+    margin: 0 auto;
+    border-radius: 50px;
+    box-shadow: -14px 5px 15px 5px #434242;
+    padding: 5px;
+    border: solid black;
+    margin-top: 20vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}  
+
+.card-title{
+    text-align: center;
+    font-family: Impact, sans-serif;
+    font-size: 20px;
+    letter-spacing: 3.6px;
+    word-spacing: -5px;
+    color: rgb(36, 32, 32);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.calc-button{
+    width: 45px;
+    color: rgb(51, 40, 13); 
+    font-size: 30px;
+    line-height: 8px;
+    padding: 11px;
+    border-radius: 9px;
+    font-family: Impact, sans-serif;
+    font-weight: 700;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    margin: 15px;
+    background-color: rgb(177, 175, 179);
+}
+.numbers-operators{
+    border-radius: 10px;
+    width: auto;
+    height: 260px;
+    background-color: rgb(36, 32, 32);
+    text-align: center;
+    border: solid black;
+}
+
+.result{
+    background: rgb(36, 32, 32);
+    border-radius: 25px;
+    height: 100px;
+    width: auto;
+    margin-bottom: 50px;
+    border: solid black;
+    overflow:auto;
+}
+
+.calc-result{
+    padding: 5px;    
+    color: rgb(177, 175, 179);
+    font-size: 40px;
+}
+
+
